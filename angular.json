@@ -121,5 +121,10 @@
         }
       }
     }},
-  "defaultProject": "plantmagedon"
+  "defaultProject": "plantmagedon",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
