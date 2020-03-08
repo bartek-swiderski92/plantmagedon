@@ -1,0 +1,46 @@
+.button, .button-text .button:hover {
+  --bg-color: #55aaff;
+  --gradient-color: #cfcfd0;
+  --bg-highlight-color: #9c8d06;
+  --frame-border-color: #376ca1;
+  --title-font-color: #b0b0b0;
+  --button-font-color: #ffffff;
+  --button-hover-bg-color: #1a8dff;
+}
+
+.button {
+  display: table;
+  height: 35px;
+  min-width: 80px;
+  background-color: var(--bg-color);
+  border: 2px solid var(--frame-border-color);
+  border-radius: 11px;
+  background: var(--bg-color);
+  text-decoration: none;
+}
+
+.button:hover {
+ transform: scale(1.05);
+}
+
+.button-text {
+  font-family: 'Ubuntu', sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.2em;
+  color: var(--button-font-color);
+  text-shadow: 2px 3px 2px black;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+a .button{
+    text-decoration: none;
+}
+
+.button:hover {
+background-color: var(--button-hover-bg-color);
+}
